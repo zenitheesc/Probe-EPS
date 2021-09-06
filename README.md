@@ -1,22 +1,5 @@
-# How to use this template:
-
-When creating a new repository just select this template, or click on the green "use template" button
-
-![new-repo-gif](https://raw.githubusercontent.com/zenitheesc/new-zenith-template/assets/novo-repo.gif)
-
-[Adding the template to a NEW repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
-
-Do **NOT** check "Include All Branches"
-
-
-**Delete** this file (README.md). Choose a template and **rename** it as 'README.md'
-
-    For example: **Delete** this file and **rename** the "[TEMPLATE]README.md" to just "README.md". Wait a few minutes for the bot to process the changes 	and you're good to go 😃
-
----
-
-<h1 align="center" style="color:white; background-color:black">[PROJECT NAME]</h1>
-<h4 align="center">[insert *brief* project description]</h4>
+<h1 align="center" style="color:white; background-color:black">Probe-EPS</h1>
+<h4 align="center">Eletrical power system for stratospheric probes, using Zenith Stack</h4>
 
 <p align="center">
 	<a href="http://zenith.eesc.usp.br/">
@@ -54,19 +37,39 @@ Do **NOT** check "Include All Branches"
     <a href="#how-to-contribute">How to contribute?</a>
 </p>
 
+This configuration of the Eletrical power system requires a board that monitors the charger and battery, in addition to performing thermal control.
+
 ## Environment and tools
 
-`Add list of dependencies and software needed to run this project (if possible add the versions that were used in development).`
+This system was designed using Eagle v.9.4.2
 
-## Steps to run and debug
+## Diagram
 
-`A simple list of steps indicating how one can run and test the project.`
+<p align = "center">
+<img src="https://github.com/zenitheesc/Probe-EPS/blob/main/Images/Z-Hub.png"/>
+</p>
 
-## How to contribute
+## Z-Hub
 
-`(optional, depends on the project) list of simple rules to help people work on the project.`
+<p align = "center">
+<img src="https://github.com/zenitheesc/Probe-EPS/blob/main/Images/EPS.png"/>
+</p>
 
-`Examples: How to format a pull request\n How to format an issue`
+<a href="https://github.com/zenitheesc/Probe-EPS/tree/main/Hardware/Ribatski_EPS-v.2.0"><h2>Ribatski (Battery) EPS</h2></a>
+
+<p align = "center">
+<img src="https://github.com/zenitheesc/Probe-EPS/blob/main/Images/Ribatski.png"/>
+</p>
+
+This subsystem is primarily responsible for the active thermal control of the batteries, in addition to supporting battery monitoring and load balancing
+
+<a href="https://github.com/zenitheesc/Probe-EPS/tree/main/Hardware/London_EPS-v.2.0"><h2>London (Power) EPS</h2></a>
+
+<p align = "center">
+<img src="https://github.com/zenitheesc/Probe-EPS/blob/main/Images/London.png"/>
+</p>
+
+Functioning as an extension of the previous subsystem, it performs conversions of battery voltage levels to the levels requested within the hardware, making the necessary distribution, as well as controlling the loading of batteries through solar panels.
 
 ---
 
