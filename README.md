@@ -37,6 +37,8 @@
     <a href="#how-to-contribute">How to contribute?</a>
 </p>
 
+This configuration of the Eletrical power system requires a board that monitors the charger and battery, in addition to performing thermal control.
+
 ## Environment and tools
 
 `This system was designed using Eagle v.9.4.2`
