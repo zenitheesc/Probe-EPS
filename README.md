@@ -46,13 +46,13 @@ This system was designed using Eagle v.9.4.2
 ## Diagram
 
 <p align = "center">
-<img src="https://github.com/zenitheesc/Probe-EPS/blob/main/Images/Z-Hub.png"/>
+<img src="https://github.com/zenitheesc/Probe-EPS/blob/main/Images/EPS.png"/>
 </p>
 
 ## Z-Hub
 
 <p align = "center">
-<img src="https://github.com/zenitheesc/Probe-EPS/blob/main/Images/EPS.png"/>
+<img src="https://github.com/zenitheesc/Probe-EPS/blob/main/Images/Z-Hub.png"/>
 </p>
 
 <a href="https://github.com/zenitheesc/Probe-EPS/tree/main/Hardware/Ribatski_EPS-v.2.0"><h2>Ribatski (Battery) EPS</h2></a>
