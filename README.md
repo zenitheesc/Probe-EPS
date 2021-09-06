@@ -39,17 +39,34 @@
 
 ## Environment and tools
 
-`Add list of dependencies and software needed to run this project (if possible add the versions that were used in development).`
+`This system was designed using Eagle v.9.4.2`
 
-## Steps to run and debug
+## Diagram
 
-`A simple list of steps indicating how one can run and test the project.`
+<p align = "center">
+<img src="https://github.com/zenitheesc/Probe-EPS/blob/main/Images/Z-Hub.png"/>
+</p>
 
-## How to contribute
+## Z-Hub
 
-`(optional, depends on the project) list of simple rules to help people work on the project.`
+<p align = "center">
+<img src="https://github.com/zenitheesc/Probe-EPS/blob/main/Images/EPS.png"/>
+</p>
+<a href="https://github.com/zenitheesc/Probe-EPS/tree/main/Hardware/Ribatski_EPS-v.2.0"><h2>1. Ribatski (Battery) EPS</h2></a>
 
-`Examples: How to format a pull request\n How to format an issue`
+<p align = "center">
+<img src="https://github.com/zenitheesc/Probe-EPS/blob/main/Images/Ribatski.png"/>
+</p>
+
+`This subsystem is primarily responsible for the active thermal control of the batteries, in addition to supporting battery monitoring and load balancing`
+
+<a href="https://github.com/zenitheesc/Probe-EPS/tree/main/Hardware/London_EPS-v.2.0"><h2>1. London (Power) EPS</h2></a>
+
+<p align = "center">
+<img src="https://github.com/zenitheesc/Probe-EPS/blob/main/Images/London.png"/>
+</p>
+
+`Functioning as an extension of the previous subsystem, it performs conversions of battery voltage levels to the levels requested within the hardware, making the necessary distribution, as well as controlling the loading of batteries through solar panels.`
 
 ---
 
