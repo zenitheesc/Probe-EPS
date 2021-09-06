@@ -52,7 +52,8 @@
 <p align = "center">
 <img src="https://github.com/zenitheesc/Probe-EPS/blob/main/Images/EPS.png"/>
 </p>
-<a href="https://github.com/zenitheesc/Probe-EPS/tree/main/Hardware/Ribatski_EPS-v.2.0"><h2>1. Ribatski (Battery) EPS</h2></a>
+
+<a href="https://github.com/zenitheesc/Probe-EPS/tree/main/Hardware/Ribatski_EPS-v.2.0"><h2>Ribatski (Battery) EPS</h2></a>
 
 <p align = "center">
 <img src="https://github.com/zenitheesc/Probe-EPS/blob/main/Images/Ribatski.png"/>
@@ -60,7 +61,7 @@
 
 `This subsystem is primarily responsible for the active thermal control of the batteries, in addition to supporting battery monitoring and load balancing`
 
-<a href="https://github.com/zenitheesc/Probe-EPS/tree/main/Hardware/London_EPS-v.2.0"><h2>1. London (Power) EPS</h2></a>
+<a href="https://github.com/zenitheesc/Probe-EPS/tree/main/Hardware/London_EPS-v.2.0"><h2>London (Power) EPS</h2></a>
 
 <p align = "center">
 <img src="https://github.com/zenitheesc/Probe-EPS/blob/main/Images/London.png"/>
