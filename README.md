@@ -41,7 +41,7 @@ This configuration of the Eletrical power system requires a board that monitors 
 
 ## Environment and tools
 
-`This system was designed using Eagle v.9.4.2`
+This system was designed using Eagle v.9.4.2
 
 ## Diagram
 
@@ -61,7 +61,7 @@ This configuration of the Eletrical power system requires a board that monitors 
 <img src="https://github.com/zenitheesc/Probe-EPS/blob/main/Images/Ribatski.png"/>
 </p>
 
-`This subsystem is primarily responsible for the active thermal control of the batteries, in addition to supporting battery monitoring and load balancing`
+This subsystem is primarily responsible for the active thermal control of the batteries, in addition to supporting battery monitoring and load balancing
 
 <a href="https://github.com/zenitheesc/Probe-EPS/tree/main/Hardware/London_EPS-v.2.0"><h2>London (Power) EPS</h2></a>
 
@@ -69,7 +69,7 @@ This configuration of the Eletrical power system requires a board that monitors 
 <img src="https://github.com/zenitheesc/Probe-EPS/blob/main/Images/London.png"/>
 </p>
 
-`Functioning as an extension of the previous subsystem, it performs conversions of battery voltage levels to the levels requested within the hardware, making the necessary distribution, as well as controlling the loading of batteries through solar panels.`
+Functioning as an extension of the previous subsystem, it performs conversions of battery voltage levels to the levels requested within the hardware, making the necessary distribution, as well as controlling the loading of batteries through solar panels.
 
 ---
 
