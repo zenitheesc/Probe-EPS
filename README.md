@@ -33,8 +33,10 @@
 
 <p align="center">
     <a href="#environment-and-tools">Environment and Tools</a> •
-    <a href="#steps-to-run-and-debug">Steps to run and debug</a> •
-    <a href="#how-to-contribute">How to contribute?</a>
+    <a href="#diagram">Diagram</a> •
+    <a href="#z-hub">Z-Hub</a> •
+    <a href="#ribatski-(battery)-eps">Ribatski (Battery) EPS</a> •
+    <a href="#london-(power)-eps">London (Power) EPS</a>
 </p>
 
 This configuration of the Eletrical power system requires a board that monitors the charger and battery, in addition to performing thermal control.
