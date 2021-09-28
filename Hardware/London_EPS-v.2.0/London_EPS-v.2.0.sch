@@ -10558,7 +10558,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 </class>
 </classes>
 <parts>
-<part name="STACK" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X20" device="" package3d_urn="urn:adsk.eagle:package:22443/2"/>
+<part name="PILHA" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X20" device="" package3d_urn="urn:adsk.eagle:package:22443/2"/>
 <part name="5V" library="microbuilder" deviceset="LED" device="1206"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100M"/>
 <part name="LED_5V" library="microbuilder" deviceset="SOLDERJUMPER" device="REFLOW_NOPASTE"/>
@@ -12315,7 +12315,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <text x="342.9" y="10.16" size="2.54" layer="94">Setembro de 2021</text>
 <text x="354.33" y="5.08" size="2.54" layer="94">1/1</text>
 <text x="342.9" y="20.32" size="2.54" layer="94">João M. E. Morais A.</text>
-<text x="339.09" y="115.57" size="3.81" layer="94" align="center">Conector da Stack</text>
+<text x="339.09" y="115.57" size="3.81" layer="94" align="center">Pilha</text>
 <text x="321.31" y="248.92" size="3.81" layer="94" align="center">Monitor de potência</text>
 <text x="130.81" y="77.47" size="3.81" layer="94" align="center">Carregador/MPPT</text>
 <wire x1="3.81" y1="86.36" x2="158.75" y2="86.36" width="0.1524" layer="94"/>
@@ -12340,7 +12340,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <wire x1="3.81" y1="175.26" x2="158.75" y2="175.26" width="0.1524" layer="94"/>
 </plain>
 <instances>
-<instance part="STACK" gate="A" x="337.82" y="71.12" smashed="yes">
+<instance part="PILHA" gate="A" x="337.82" y="71.12" smashed="yes">
 <attribute name="NAME" x="331.47" y="97.155" size="1.778" layer="95"/>
 <attribute name="VALUE" x="331.47" y="40.64" size="1.778" layer="96"/>
 </instance>
@@ -12667,22 +12667,22 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="1"/>
+<pinref part="PILHA" gate="A" pin="1"/>
 <wire x1="335.28" y1="93.98" x2="330.2" y2="93.98" width="0.1524" layer="91"/>
 <label x="330.2" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STACK" gate="A" pin="3"/>
+<pinref part="PILHA" gate="A" pin="3"/>
 <wire x1="335.28" y1="91.44" x2="330.2" y2="91.44" width="0.1524" layer="91"/>
 <label x="330.2" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STACK" gate="A" pin="2"/>
+<pinref part="PILHA" gate="A" pin="2"/>
 <wire x1="342.9" y1="93.98" x2="347.98" y2="93.98" width="0.1524" layer="91"/>
 <label x="347.98" y="93.98" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STACK" gate="A" pin="4"/>
+<pinref part="PILHA" gate="A" pin="4"/>
 <wire x1="342.9" y1="91.44" x2="347.98" y2="91.44" width="0.1524" layer="91"/>
 <label x="347.98" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -12838,7 +12838,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 </net>
 <net name="SOL+" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="7"/>
+<pinref part="PILHA" gate="A" pin="7"/>
 <wire x1="335.28" y1="86.36" x2="330.2" y2="86.36" width="0.1524" layer="91"/>
 <label x="330.2" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -12855,12 +12855,12 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 </net>
 <net name="5V" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="9"/>
+<pinref part="PILHA" gate="A" pin="9"/>
 <wire x1="335.28" y1="83.82" x2="330.2" y2="83.82" width="0.1524" layer="91"/>
 <label x="330.2" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STACK" gate="A" pin="10"/>
+<pinref part="PILHA" gate="A" pin="10"/>
 <wire x1="342.9" y1="83.82" x2="347.98" y2="83.82" width="0.1524" layer="91"/>
 <label x="347.98" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -12889,12 +12889,12 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 </net>
 <net name="3V3" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="11"/>
+<pinref part="PILHA" gate="A" pin="11"/>
 <wire x1="335.28" y1="81.28" x2="330.2" y2="81.28" width="0.1524" layer="91"/>
 <label x="330.2" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STACK" gate="A" pin="12"/>
+<pinref part="PILHA" gate="A" pin="12"/>
 <wire x1="342.9" y1="81.28" x2="347.98" y2="81.28" width="0.1524" layer="91"/>
 <label x="347.98" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -12951,28 +12951,28 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 </net>
 <net name="MISO1" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="13"/>
+<pinref part="PILHA" gate="A" pin="13"/>
 <wire x1="335.28" y1="78.74" x2="330.2" y2="78.74" width="0.1524" layer="91"/>
 <label x="330.2" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SCK1" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="15"/>
+<pinref part="PILHA" gate="A" pin="15"/>
 <wire x1="335.28" y1="76.2" x2="330.2" y2="76.2" width="0.127" layer="91"/>
 <label x="330.2" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CE11" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="21"/>
+<pinref part="PILHA" gate="A" pin="21"/>
 <wire x1="335.28" y1="68.58" x2="330.2" y2="68.58" width="0.1524" layer="91"/>
 <label x="330.2" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SDA1" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="17"/>
+<pinref part="PILHA" gate="A" pin="17"/>
 <wire x1="335.28" y1="73.66" x2="330.2" y2="73.66" width="0.1524" layer="91"/>
 <label x="330.2" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -12990,91 +12990,91 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 </net>
 <net name="SDA2" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="23"/>
+<pinref part="PILHA" gate="A" pin="23"/>
 <wire x1="335.28" y1="66.04" x2="330.2" y2="66.04" width="0.1524" layer="91"/>
 <label x="330.2" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="TX1" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="27"/>
+<pinref part="PILHA" gate="A" pin="27"/>
 <wire x1="335.28" y1="60.96" x2="330.2" y2="60.96" width="0.1524" layer="91"/>
 <label x="330.2" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="TX2" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="29"/>
+<pinref part="PILHA" gate="A" pin="29"/>
 <wire x1="335.28" y1="58.42" x2="330.2" y2="58.42" width="0.1524" layer="91"/>
 <label x="330.2" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SDA3" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="25"/>
+<pinref part="PILHA" gate="A" pin="25"/>
 <wire x1="335.28" y1="63.5" x2="330.2" y2="63.5" width="0.1524" layer="91"/>
 <label x="330.2" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DIG1" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="31"/>
+<pinref part="PILHA" gate="A" pin="31"/>
 <wire x1="335.28" y1="55.88" x2="330.2" y2="55.88" width="0.1524" layer="91"/>
 <label x="330.2" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DIG5" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="39"/>
+<pinref part="PILHA" gate="A" pin="39"/>
 <wire x1="335.28" y1="45.72" x2="330.2" y2="45.72" width="0.1524" layer="91"/>
 <label x="330.2" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DIG8" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="36"/>
+<pinref part="PILHA" gate="A" pin="36"/>
 <wire x1="342.9" y1="50.8" x2="347.98" y2="50.8" width="0.1524" layer="91"/>
 <label x="347.98" y="50.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DIG6" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="32"/>
+<pinref part="PILHA" gate="A" pin="32"/>
 <wire x1="342.9" y1="55.88" x2="347.98" y2="55.88" width="0.1524" layer="91"/>
 <label x="347.98" y="55.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCL3" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="26"/>
+<pinref part="PILHA" gate="A" pin="26"/>
 <wire x1="342.9" y1="63.5" x2="347.98" y2="63.5" width="0.1524" layer="91"/>
 <label x="347.98" y="63.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RX2" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="30"/>
+<pinref part="PILHA" gate="A" pin="30"/>
 <wire x1="342.9" y1="58.42" x2="347.98" y2="58.42" width="0.1524" layer="91"/>
 <label x="347.98" y="58.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RX1" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="28"/>
+<pinref part="PILHA" gate="A" pin="28"/>
 <wire x1="342.9" y1="60.96" x2="347.98" y2="60.96" width="0.1524" layer="91"/>
 <label x="347.98" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCL2" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="24"/>
+<pinref part="PILHA" gate="A" pin="24"/>
 <wire x1="342.9" y1="66.04" x2="347.98" y2="66.04" width="0.1524" layer="91"/>
 <label x="347.98" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCL1" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="19"/>
+<pinref part="PILHA" gate="A" pin="19"/>
 <wire x1="335.28" y1="71.12" x2="330.2" y2="71.12" width="0.1524" layer="91"/>
 <label x="330.2" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -13092,42 +13092,42 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 </net>
 <net name="CE12" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="22"/>
+<pinref part="PILHA" gate="A" pin="22"/>
 <wire x1="342.9" y1="68.58" x2="347.98" y2="68.58" width="0.1524" layer="91"/>
 <label x="347.98" y="68.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CE02" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="20"/>
+<pinref part="PILHA" gate="A" pin="20"/>
 <wire x1="342.9" y1="71.12" x2="347.98" y2="71.12" width="0.1524" layer="91"/>
 <label x="347.98" y="71.12" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CAN_L" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="18"/>
+<pinref part="PILHA" gate="A" pin="18"/>
 <wire x1="342.9" y1="73.66" x2="347.98" y2="73.66" width="0.1524" layer="91"/>
 <label x="347.98" y="73.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CAN_H" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="16"/>
+<pinref part="PILHA" gate="A" pin="16"/>
 <wire x1="342.9" y1="76.2" x2="347.98" y2="76.2" width="0.1524" layer="91"/>
 <label x="347.98" y="76.2" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MOSI1" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="14"/>
+<pinref part="PILHA" gate="A" pin="14"/>
 <wire x1="342.9" y1="78.74" x2="347.98" y2="78.74" width="0.1524" layer="91"/>
 <label x="347.98" y="78.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SOL-" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="8"/>
+<pinref part="PILHA" gate="A" pin="8"/>
 <wire x1="342.9" y1="86.36" x2="347.98" y2="86.36" width="0.1524" layer="91"/>
 <label x="347.98" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -13139,40 +13139,40 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 </net>
 <net name="ALRT1" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="33"/>
+<pinref part="PILHA" gate="A" pin="33"/>
 <wire x1="335.28" y1="53.34" x2="330.2" y2="53.34" width="0.1524" layer="91"/>
 <label x="330.2" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PWM" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="35"/>
+<pinref part="PILHA" gate="A" pin="35"/>
 <wire x1="335.28" y1="50.8" x2="330.2" y2="50.8" width="0.1524" layer="91"/>
 <label x="330.2" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DIG9" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="38"/>
+<pinref part="PILHA" gate="A" pin="38"/>
 <wire x1="342.9" y1="48.26" x2="347.98" y2="48.26" width="0.1524" layer="91"/>
 <label x="347.98" y="48.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DIG10" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="40"/>
+<pinref part="PILHA" gate="A" pin="40"/>
 <wire x1="342.9" y1="45.72" x2="347.98" y2="45.72" width="0.1524" layer="91"/>
 <label x="347.98" y="45.72" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BAT+" class="0">
 <segment>
-<pinref part="STACK" gate="A" pin="5"/>
+<pinref part="PILHA" gate="A" pin="5"/>
 <wire x1="335.28" y1="88.9" x2="330.2" y2="88.9" width="0.1524" layer="91"/>
 <label x="330.2" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STACK" gate="A" pin="6"/>
+<pinref part="PILHA" gate="A" pin="6"/>
 <wire x1="342.9" y1="88.9" x2="347.98" y2="88.9" width="0.1524" layer="91"/>
 <label x="347.98" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -13354,7 +13354,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <label x="198.12" y="176.53" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STACK" gate="A" pin="34"/>
+<pinref part="PILHA" gate="A" pin="34"/>
 <wire x1="342.9" y1="53.34" x2="347.98" y2="53.34" width="0.1524" layer="91"/>
 <label x="347.98" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -13372,7 +13372,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <label x="175.26" y="176.53" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="STACK" gate="A" pin="37"/>
+<pinref part="PILHA" gate="A" pin="37"/>
 <wire x1="335.28" y1="48.26" x2="330.2" y2="48.26" width="0.1524" layer="91"/>
 <label x="330.2" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
