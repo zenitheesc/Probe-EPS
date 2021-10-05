@@ -35,8 +35,8 @@
     <a href="#environment-and-tools">Environment and Tools</a> •
     <a href="#diagram">Diagram</a> •
     <a href="#z-hub">Z-Hub</a> •
-    <a href="#ribatski-(battery)-eps">Ribatski (Battery) EPS</a> •
-    <a href="#london-(power)-eps">London (Power) EPS</a>
+    <a href="#urry-(battery)-eps">Urry (Battery) EPS</a> •
+    <a href="#shockley-(power)-eps">Shockley (Power) EPS</a>
 </p>
 
 This configuration of the Eletrical power system requires a board that monitors the charger and battery, in addition to performing thermal control.
@@ -45,30 +45,24 @@ This configuration of the Eletrical power system requires a board that monitors 
 
 This system was designed using Eagle v.9.4.2
 
-## Diagram
-
-<p align = "center">
-<img src="https://github.com/zenitheesc/Probe-EPS/blob/main/Images/EPS.png"/>
-</p>
-
 ## Z-Hub
 
 <p align = "center">
 <img src="https://github.com/zenitheesc/Probe-EPS/blob/main/Images/Z-Hub.png"/>
 </p>
 
-<a href="https://github.com/zenitheesc/Probe-EPS/tree/main/Hardware/Ribatski_EPS-v.2.0"><h2>Ribatski (Battery) EPS</h2></a>
+<a href="https://github.com/zenitheesc/Probe-EPS/tree/main/Hardware/Urry_EPS-v.2.0"><h2>Urry (Battery) EPS</h2></a>
 
 <p align = "center">
-<img src="https://github.com/zenitheesc/Probe-EPS/blob/main/Images/Ribatski.png"/>
+<img src="https://github.com/zenitheesc/Probe-EPS/blob/main/Images/URRY.png"/>
 </p>
 
 This subsystem is primarily responsible for the active thermal control of the batteries, in addition to supporting battery monitoring and load balancing
 
-<a href="https://github.com/zenitheesc/Probe-EPS/tree/main/Hardware/London_EPS-v.2.0"><h2>London (Power) EPS</h2></a>
+<a href="https://github.com/zenitheesc/Probe-EPS/tree/main/Hardware/Shockley_EPS-v.2.0"><h2>Shockley (Power) EPS</h2></a>
 
 <p align = "center">
-<img src="https://github.com/zenitheesc/Probe-EPS/blob/main/Images/London.png"/>
+<img src="https://github.com/zenitheesc/Probe-EPS/blob/main/Images/SHOCKLEY.png"/>
 </p>
 
 Functioning as an extension of the previous subsystem, it performs conversions of battery voltage levels to the levels requested within the hardware, making the necessary distribution, as well as controlling the loading of batteries through solar panels.
