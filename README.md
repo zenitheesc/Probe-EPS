@@ -9,34 +9,33 @@
     <img src="https://img.shields.io/badge/Linked%20to-EESC--USP-black?style=for-the-badge"/>
     </a>
     <a href="https://github.com/zenitheesc/new-zenith-template/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/zenitheesc/new-zenith-template?style=for-the-badge"/>
+    <img src="https://img.shields.io/github/license/zenitheesc/Probe-EPS?style=for-the-badge"/>
     </a>
     <a href="https://github.com/zenitheesc/new-zenith-template/issues">
-    <img src="https://img.shields.io/github/issues/zenitheesc/new-zenith-template?style=for-the-badge"/>
+    <img src="https://img.shields.io/github/issues/zenitheesc/Probe-EPS?style=for-the-badge"/>
     </a>
     <a href="https://github.com/zenitheesc/new-zenith-template/commits/main">
-    <img src="https://img.shields.io/github/commit-activity/m/zenitheesc/new-zenith-template?style=for-the-badge">
+    <img src="https://img.shields.io/github/commit-activity/m/zenitheesc/Probe-EPS?style=for-the-badge">
     </a>
     <a href="https://github.com/zenitheesc/new-zenith-template/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/zenitheesc/new-zenith-template?style=for-the-badge"/>
+    <img src="https://img.shields.io/github/contributors/zenitheesc/Probe-EPS?style=for-the-badge"/>
     </a>
     <a href="https://github.com/zenitheesc/new-zenith-template/commits/main">
-    <img src="https://img.shields.io/github/last-commit/zenitheesc/new-zenith-template?style=for-the-badge"/>
+    <img src="https://img.shields.io/github/last-commit/zenitheesc/Probe-EPS?style=for-the-badge"/>
     </a>
     <a href="https://github.com/zenitheesc/new-zenith-template/issues">
-    <img src="https://img.shields.io/github/issues-raw/zenitheesc/new-zenith-template?style=for-the-badge" />
+    <img src="https://img.shields.io/github/issues-raw/zenitheesc/Probe-EPS?style=for-the-badge" />
     </a>
     <a href="https://github.com/zenitheesc/new-zenith-template/pulls">
-    <img src = "https://img.shields.io/github/issues-pr-raw/zenitheesc/new-zenith-template?style=for-the-badge">
+    <img src = "https://img.shields.io/github/issues-pr-raw/zenitheesc/Probe-EPS?style=for-the-badge">
     </a>
 </p>
 
 <p align="center">
     <a href="#environment-and-tools">Environment and Tools</a> •
-    <a href="#diagram">Diagram</a> •
     <a href="#z-hub">Z-Hub</a> •
-    <a href="#urry-(battery)-eps">Urry (Battery) EPS</a> •
-    <a href="#shockley-(power)-eps">Shockley (Power) EPS</a>
+    <a href="#aroca-(battery)-eps">Aroca (Battery) EPS</a> •
+    <a href="#london-(power)-eps">London (Power) EPS</a>
 </p>
 
 This configuration of the Eletrical power system requires a board that monitors the charger and battery, in addition to performing thermal control.
@@ -51,18 +50,18 @@ This system was designed using Eagle v.9.4.2
 <img src="https://github.com/zenitheesc/Probe-EPS/blob/main/Images/Z-Hub.png"/>
 </p>
 
-<a href="https://github.com/zenitheesc/Probe-EPS/tree/main/Hardware/Urry_EPS-v.2.0"><h2>Urry (Battery) EPS</h2></a>
+<a href="https://github.com/zenitheesc/Probe-EPS/tree/main/Hardware/Aroca_EPS-v.2.0"><h2>Aroca (Battery) EPS</h2></a>
 
 <p align = "center">
-<img src="https://github.com/zenitheesc/Probe-EPS/blob/main/Images/URRY.png"/>
+<img src="https://github.com/zenitheesc/Probe-EPS/blob/main/Images/Aroca.png"/>
 </p>
 
 This subsystem is primarily responsible for the active thermal control of the batteries, in addition to supporting battery monitoring and load balancing
 
-<a href="https://github.com/zenitheesc/Probe-EPS/tree/main/Hardware/Shockley_EPS-v.2.0"><h2>Shockley (Power) EPS</h2></a>
+<a href="https://github.com/zenitheesc/Probe-EPS/tree/main/Hardware/London_EPS-v.2.0"><h2>London (Power) EPS</h2></a>
 
 <p align = "center">
-<img src="https://github.com/zenitheesc/Probe-EPS/blob/main/Images/SHOCKLEY.png"/>
+<img src="https://github.com/zenitheesc/Probe-EPS/blob/main/Images/London.png"/>
 </p>
 
 Functioning as an extension of the previous subsystem, it performs conversions of battery voltage levels to the levels requested within the hardware, making the necessary distribution, as well as controlling the loading of batteries through solar panels.
