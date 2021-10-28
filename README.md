@@ -8,25 +8,25 @@
     <a href="https://eesc.usp.br/">
     <img src="https://img.shields.io/badge/Linked%20to-EESC--USP-black?style=for-the-badge"/>
     </a>
-    <a href="https://github.com/zenitheesc/new-zenith-template/blob/main/LICENSE">
+    <a href="https://github.com/zenitheesc/Probe-EPS/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/zenitheesc/Probe-EPS?style=for-the-badge"/>
     </a>
-    <a href="https://github.com/zenitheesc/new-zenith-template/issues">
+    <a href="https://github.com/zenitheesc/Probe-EPS/issues">
     <img src="https://img.shields.io/github/issues/zenitheesc/Probe-EPS?style=for-the-badge"/>
     </a>
-    <a href="https://github.com/zenitheesc/new-zenith-template/commits/main">
+    <a href="https://github.com/zenitheesc/Probe-EPS/commits/main">
     <img src="https://img.shields.io/github/commit-activity/m/zenitheesc/Probe-EPS?style=for-the-badge">
     </a>
-    <a href="https://github.com/zenitheesc/new-zenith-template/graphs/contributors">
+    <a href="https://github.com/zenitheesc/Probe-EPS/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/zenitheesc/Probe-EPS?style=for-the-badge"/>
     </a>
-    <a href="https://github.com/zenitheesc/new-zenith-template/commits/main">
+    <a href="https://github.com/zenitheesc/Probe-EPS/commits/main">
     <img src="https://img.shields.io/github/last-commit/zenitheesc/Probe-EPS?style=for-the-badge"/>
     </a>
-    <a href="https://github.com/zenitheesc/new-zenith-template/issues">
+    <a href="https://github.com/zenitheesc/Probe-EPS/issues">
     <img src="https://img.shields.io/github/issues-raw/zenitheesc/Probe-EPS?style=for-the-badge" />
     </a>
-    <a href="https://github.com/zenitheesc/new-zenith-template/pulls">
+    <a href="https://github.com/zenitheesc/Probe-EPS/pulls">
     <img src = "https://img.shields.io/github/issues-pr-raw/zenitheesc/Probe-EPS?style=for-the-badge">
     </a>
 </p>
